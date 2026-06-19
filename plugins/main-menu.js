@@ -14,11 +14,11 @@ let handler = async (m, { conn, usedPrefix }) => {
     let fecha = fechaObj.toLocaleDateString('en-US', { timeZone: 'America/Lima' })
     let date = `${fecha} ${hora}`
     let mediaList = [
-      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg',
-      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg',
-      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg',
-      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg', 
-      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg'
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/d732b9e5ad6055b967969cb406f0604b.mp4',
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/d732b9e5ad6055b967969cb406f0604b.mp4',
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/d732b9e5ad6055b967969cb406f0604b.mp4',
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/d732b9e5ad6055b967969cb406f0604b.mp4', 
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/d732b9e5ad6055b967969cb406f0604b.mp4'
     ]
 
     let banner = mediaList[Math.floor(Math.random() * mediaList.length)]
