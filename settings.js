@@ -17,11 +17,11 @@ global.jadi = "Sessions/SubBot"
 global.kanekiAIJadibts = true
 
 
-global.botname = "𖹭  ׄ  ְ 🍜 𝐆𝐨𝐣𝐨𝐁𝐨𝐭-𝐌𝐃 ✩"
-global.textbot = "gσᴊσ вσт ν3 • мα∂є ву ¢αяℓσѕ.яν"
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝙲𝙰𝚁𝙻𝙾𝚂.𝚁𝚅"
-global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ ƈαɾʅσʂ.ɾʋ"
-global.etiqueta = "✫ᴄᴀʀʟᴏs ʀᴀᴍɪʀᴇᴢ ❄️ ⊹꙰ "
+global.botname = "𖹭  ׄ  ְ 🍜 Prime Bot ✩"
+global.textbot = "Prime Bot • Whois Yallico"
+global.dev = "© Team Nightwish"
+global.author = "© Prime Pro"
+global.etiqueta = "@whois.yallico ❄️ ⊹꙰ "
 global.currency = "g᥆𝗍іᥴᥲs"
 global.banner = "https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg"
 global.icono = "https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg"
@@ -29,13 +29,13 @@ global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = "https://chat.whatsapp.com/IDo5RtlTvyt59hqj7E9O28?mode=wwt"
-global.community = "https://chat.whatsapp.com/IDo5RtlTvyt59hqj7E9O28?mode=wwt"
+global.group = "https://chat.whatsapp.com/LjPhgjqCM934QEzYz3vrVk"
+global.community = "https://chat.whatsapp.com/LjPhgjqCM934QEzYz3vrVk"
 global.channel = "https://whatsapp.com/channel/0029VbBGlokA89MliWWv1x16"
-global.github = "https://github.com/Carlos13ra/GOJOBOT-MD"
-global.gmail = "shadowcore.xyz@gmail.com"
+global.github = "https://chat.whatsapp.com/LjPhgjqCM934QEzYz3vrVk"
+global.gmail = "yallico2024@gmail.com"
 global.ch = {
-ch1: "120363421367237421@newsletter"
+ch1: "120363419947391620@newsletter"
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
