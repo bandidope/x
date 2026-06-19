@@ -43,9 +43,9 @@ conn.sendMessage(m.chat, { sticker: mediax, mentions: users }, { quoted: null })
 await conn.relayMessage(m.chat, { extendedTextMessage: { text: `${masss}\n${htextos}\n`, contextInfo: { mentionedJid: users } }})
 }}}
 
-handler.help = ['hidetag']
+handler.help = ['n']
 handler.tags = ['group']
-handler.command = ['hidetag', 'notificar', 'notify', 'tag']
+handler.command = ['hidetag', 'notificar', 'notify', 'n']
 handler.group = true
 handler.admin = true
 
