@@ -4,8 +4,8 @@ import { fileURLToPath } from "url"
 import fs from "fs"
 
 global.botNumber = "" 
-global.owner = ["51935608082", "51934053286", "51978385249", "51972409783", "51966453839", "5213541145561"]
-global.suittag = ["51935608082"] 
+global.owner = ["51936994155", "51934053286", "51978385249", "51972409783", "51966453839", "5213541145561"]
+global.suittag = ["51936994155"] 
 global.prems = []
 
 
@@ -23,8 +23,8 @@ global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝙲𝙰𝚁𝙻𝙾𝚂.𝚁𝚅"
 global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ ƈαɾʅσʂ.ɾʋ"
 global.etiqueta = "✫ᴄᴀʀʟᴏs ʀᴀᴍɪʀᴇᴢ ❄️ ⊹꙰ "
 global.currency = "g᥆𝗍іᥴᥲs"
-global.banner = "https://raw.githubusercontent.com/Dev-lxyz/upload/main/uploads/0wfrp.jpeg"
-global.icono = "https://raw.githubusercontent.com/Dev-lxyz/upload/main/uploads/g68u4.jpeg"
+global.banner = "https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg"
+global.icono = "https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg"
 global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
