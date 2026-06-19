@@ -31,7 +31,7 @@ global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 
 global.group = "https://chat.whatsapp.com/LjPhgjqCM934QEzYz3vrVk"
 global.community = "https://chat.whatsapp.com/LjPhgjqCM934QEzYz3vrVk"
-global.channel = "https://whatsapp.com/channel/0029VbBGlokA89MliWWv1x16"
+global.channel = "https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m"
 global.github = "https://chat.whatsapp.com/LjPhgjqCM934QEzYz3vrVk"
 global.gmail = "yallico2024@gmail.com"
 global.ch = {
