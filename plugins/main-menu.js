@@ -14,11 +14,11 @@ let handler = async (m, { conn, usedPrefix }) => {
     let fecha = fechaObj.toLocaleDateString('en-US', { timeZone: 'America/Lima' })
     let date = `${fecha} ${hora}`
     let mediaList = [
-      'https://files.catbox.moe/dd03ew.mp4',
-      'https://files.catbox.moe/6o9e6r.mp4',
-      'https://files.catbox.moe/iu8d05.mp4',
-      'https://files.catbox.moe/qacumt.mp4', 
-      'https://files.catbox.moe/wm3an6.mp4'
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg',
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg',
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg',
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg', 
+      'https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg'
     ]
 
     let banner = mediaList[Math.floor(Math.random() * mediaList.length)]
@@ -46,15 +46,15 @@ let handler = async (m, { conn, usedPrefix }) => {
     }).join('\n\n')
 
     let menu = `
- 𔗨𔗨  お GOJOBOT - ${(conn.user.jid == global.conn.user.jid ? 'OFICIAL' : 'SUB BOT')} 🍜 :: 
+ 𔗨𔗨  お Prime Bot - ${(conn.user.jid == global.conn.user.jid ? 'OFICIAL' : 'SUB BOT')} 🍜 :: 
 
-- ﹟ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ›* wa.me/51963315293
+- ﹟ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ›* Wa.me/51936994155
 - ﹟ *ᴜsᴇʀs ›* ${totalreg}
 - ﹟ *ɢʀᴜᴘᴏs ›* ${groupsCount}
 - ﹟ *ᴄᴏᴍᴀɴᴅᴏs ›* ${totalCommands}
 - ﹟ *ᴜᴘᴛɪᴍᴇ ›* ${uptime}
 - ﹟ *ᴅᴀᴛᴇ/ᴛɪᴍᴇ ›* ${date}
-- ﹟ \`\`\`https://whatsapp.com/channel/0029VbBGlokA89MliWWv1x16\`\`\`
+- ﹟ \`\`\`https://whatsapp.com/channel/\`\`\`
 
 ${secciones}`.trim()
 
