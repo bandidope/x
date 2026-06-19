@@ -1,60 +1,55 @@
 import { watchFile, unwatchFile } from "fs"
+import chalk from "chalk"
 import { fileURLToPath } from "url"
 import fs from "fs"
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
-//BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
-//Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumber = "" //Ejemplo: 573218138672
-
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
-global.owner = ["51936994155", "51904937048"]
-global.suittag = ["51936994155"] 
+global.botNumber = "" 
+global.owner = ["51935608082", "51934053286", "51978385249", "51972409783", "51966453839", "5213541145561"]
+global.suittag = ["51935608082"] 
 global.prems = []
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.libreria = "Baileys Multi Device"
-global.vs = "^1.8.2|Latest"
-global.sessions = "Principal"
-global.jadi = "SubBot"
-global.yuzukiJadibts = true
+global.vs = "^1.8.2 • Latest"
+global.nameqr = "ɢᴏᴊᴏ-ʙᴏᴛ ᴍᴅ"
+global.sessions = "Sessions/Principal"
+global.jadi = "Sessions/SubBot"
+global.kanekiAIJadibts = true
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.botname = " ۫  ⚡੭  ׅ  𝑷𝒓𝒊𝒎𝒆 𝑺𝒖𝒑𝒓𝒆𝒎𝒐 - 𝐀𝐈 ׁ ♡ ⸼"
-global.textbot = "₊𝗧𝗲𝗮𝗺 𝗡𝗶𝗴𝗵𝘁𝘄𝗶𝘀𝗵˙ꨂﾟ"
-global.dev = " ׅ   ⿆  𝃤𝃤𓂂 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗪𝗵𝗼𝗶𝘀 彡★"
-global.author = "© 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗪𝗵𝗼𝗶𝘀 ⚡"
-global.etiqueta = "✫ 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗪𝗵𝗼𝗶𝘀 ٩(◕‿◕｡)۶"
-global.currency = "¥enes"
-global.banner = "https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg"
-global.icono = "https://raw.githubusercontent.com/bandidope/Fotos/refs/heads/master/fotos/prime.jpg"
+global.botname = "𖹭  ׄ  ְ 🍜 𝐆𝐨𝐣𝐨𝐁𝐨𝐭-𝐌𝐃 ✩"
+global.textbot = "gσᴊσ вσт ν3 • мα∂є ву ¢αяℓσѕ.яν"
+global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝙲𝙰𝚁𝙻𝙾𝚂.𝚁𝚅"
+global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ ƈαɾʅσʂ.ɾʋ"
+global.etiqueta = "✫ᴄᴀʀʟᴏs ʀᴀᴍɪʀᴇᴢ ❄️ ⊹꙰ "
+global.currency = "g᥆𝗍іᥴᥲs"
+global.banner = "https://raw.githubusercontent.com/Dev-lxyz/upload/main/uploads/0wfrp.jpeg"
+global.icono = "https://raw.githubusercontent.com/Dev-lxyz/upload/main/uploads/g68u4.jpeg"
 global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = "https://chat.whatsapp.com"
-global.community = "https://chat.whatsapp.com/"
-global.channel = "https://whatsapp.com/channel/"
-global.github = "https://github.com/"
-global.gmail = "yallico2024@gmail.com"
+global.group = "https://chat.whatsapp.com/IDo5RtlTvyt59hqj7E9O28?mode=wwt"
+global.community = "https://chat.whatsapp.com/IDo5RtlTvyt59hqj7E9O28?mode=wwt"
+global.channel = "https://whatsapp.com/channel/0029VbBGlokA89MliWWv1x16"
+global.github = "https://github.com/Carlos13ra/GOJOBOT-MD"
+global.gmail = "shadowcore.xyz@gmail.com"
 global.ch = {
-ch1: "120363419947391620@newsletter"
+ch1: "120363421367237421@newsletter"
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.APIs = {
-xyro: { url: "https://api.xyro.site", key: null },
+xyro: { url: "https://xyro.site", key: null },
 yupra: { url: "https://api.yupra.my.id", key: null },
 vreden: { url: "https://api.vreden.web.id", key: null },
 delirius: { url: "https://api.delirius.store", key: null },
 zenzxz: { url: "https://api.zenzxz.my.id", key: null },
 siputzx: { url: "https://api.siputzx.my.id", key: null },
-adonix: { url: "https://api-adonix.ultraplus.click", key: 'shadow.xyz' }
+adonix: { url: "https://api-adonix.ultraplus.click", key: 'shadow.xyz' },
+stellar: { url: "https://api.stellarwa.xyz", key: "this-xyz"},
+light: { url: "https://api--shadowcorexyz.replit.app", key: null } // soy pobre att: El creador alv
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -62,6 +57,6 @@ adonix: { url: "https://api-adonix.ultraplus.click", key: 'shadow.xyz' }
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
 unwatchFile(file)
-console.log(chalk.redBright("Update 'settings.js'"))
+console.log(chalk.redBright("Update 'settings'"))
 import(`${file}?update=${Date.now()}`)
 })
