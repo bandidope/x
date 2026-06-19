@@ -24,8 +24,8 @@ https://chat.whatsapp.com/Fi6FHZ8VSGnAT7CKJkcd9r?mode=gi_t
 ` 
 }
 handler.help = ['comprar']
-handler.tags = ['search']
-handler.command = ['comprar']
+handler.tags = ['Arceus']
+handler.command = /^(comprar)$/i
 handler.group = false
 handler.admin = false
 export default handler
