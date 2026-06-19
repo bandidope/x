@@ -41,7 +41,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     const secciones = Object.entries(grupos).map(([tag, cmds]) => {
       return `*╭────❍* MENU - ${tag.toUpperCase()}\n`
-        + cmds.map(cmd => `*│* ➩ ${cmd}`).join('\n') 
+        + cmds.map(cmd => `*│* ⚡ ${cmd}`).join('\n') 
         + `\n*╰──────────────┈⊷*`
     }).join('\n\n')
 
@@ -54,7 +54,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 - ﹟ *ᴄᴏᴍᴀɴᴅᴏs ›* ${totalCommands}
 - ﹟ *ᴜᴘᴛɪᴍᴇ ›* ${uptime}
 - ﹟ *ᴅᴀᴛᴇ/ᴛɪᴍᴇ ›* ${date}
-- ﹟ \`\`\`https://whatsapp.com/channel/\`\`\`
+- ﹟ \`\`\`https://chat.whatsapp.com/LjPhgjqCM934QEzYz3vrVk\`\`\`
 
 ${secciones}`.trim()
 
@@ -70,7 +70,7 @@ ${secciones}`.trim()
               mentionedJid: [m.sender],
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363421367237421@newsletter',
+                newsletterJid: '120363419947391620@newsletter',
                 serverMessageId: '',
                 newsletterName: botname
               }
@@ -82,7 +82,7 @@ ${secciones}`.trim()
               mentionedJid: [m.sender],
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363421367237421@newsletter',
+                newsletterJid: '120363419947391620@newsletter',
                 serverMessageId: '',
                 newsletterName: botname
               },
