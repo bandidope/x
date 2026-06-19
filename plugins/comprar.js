@@ -24,7 +24,7 @@ https://chat.whatsapp.com/Fi6FHZ8VSGnAT7CKJkcd9r?mode=gi_t
 ` 
 }
 handler.help = ['comprar']
-handler.tags = ['info']
+handler.tags = ['search']
 handler.command = ['comprar']
 handler.group = false
 handler.admin = false
